@@ -4,7 +4,7 @@
 #
 Name     : tifffile
 Version  : 2021.4.8
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/21/b5/d78caac27c0b612dc2765341829c5e3a547bd873ccc2f5cc68d35d64ad72/tifffile-2021.4.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/21/b5/d78caac27c0b612dc2765341829c5e3a547bd873ccc2f5cc68d35d64ad72/tifffile-2021.4.8.tar.gz
 Summary  : Read and write TIFF files
