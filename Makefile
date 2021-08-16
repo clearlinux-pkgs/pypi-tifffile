@@ -1,5 +1,5 @@
 PKG_NAME := tifffile
-URL = https://files.pythonhosted.org/packages/21/b5/d78caac27c0b612dc2765341829c5e3a547bd873ccc2f5cc68d35d64ad72/tifffile-2021.4.8.tar.gz
+URL = https://files.pythonhosted.org/packages/54/48/684c73f4db1e44068ea58609a2bd93c5cc6b74adc9a9891691605bf1597a/tifffile-2021.8.8.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
