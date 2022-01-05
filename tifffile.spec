@@ -4,7 +4,7 @@
 #
 Name     : tifffile
 Version  : 2021.11.2
-Release  : 18
+Release  : 19
 URL      : https://files.pythonhosted.org/packages/de/af/36cc73f0321937535cf23cc7124858629923427f6c9df87b4e08d7324ce2/tifffile-2021.11.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/de/af/36cc73f0321937535cf23cc7124858629923427f6c9df87b4e08d7324ce2/tifffile-2021.11.2.tar.gz
 Summary  : Read and write TIFF files
@@ -14,13 +14,8 @@ Requires: tifffile-bin = %{version}-%{release}
 Requires: tifffile-license = %{version}-%{release}
 Requires: tifffile-python = %{version}-%{release}
 Requires: tifffile-python3 = %{version}-%{release}
-Requires: lxml
-Requires: matplotlib
-Requires: numpy
 BuildRequires : buildreq-distutils3
-BuildRequires : lxml
-BuildRequires : matplotlib
-BuildRequires : numpy
+BuildRequires : pypi(numpy)
 
 %description
 Read and write TIFF files
@@ -73,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1636418457
+export SOURCE_DATE_EPOCH=1641423535
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
