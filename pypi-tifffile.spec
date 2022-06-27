@@ -4,7 +4,7 @@
 #
 Name     : pypi-tifffile
 Version  : 2022.5.4
-Release  : 30
+Release  : 31
 URL      : https://files.pythonhosted.org/packages/a9/23/165f83ba0e1cfb473b4cf2dd27c8814082f2ee850b9807b50548592bad58/tifffile-2022.5.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a9/23/165f83ba0e1cfb473b4cf2dd27c8814082f2ee850b9807b50548592bad58/tifffile-2022.5.4.tar.gz
 Summary  : Read and write TIFF files
@@ -71,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1653011067
+export SOURCE_DATE_EPOCH=1656368576
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -109,7 +109,7 @@ export FCFLAGS="$FCFLAGS -m64 -march=x86-64-v3 "
 export LDFLAGS="$LDFLAGS -m64 -march=x86-64-v3 "
 python3 -tt setup.py build install --root=%{buildroot}-v3
 popd
-/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot}/usr/share/clear/optimized-elf/ %{buildroot}/usr/share/clear/filemap/filemap-%{name}
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
