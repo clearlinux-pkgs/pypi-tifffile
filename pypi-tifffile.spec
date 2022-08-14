@@ -4,7 +4,7 @@
 #
 Name     : pypi-tifffile
 Version  : 2022.8.8
-Release  : 36
+Release  : 37
 URL      : https://files.pythonhosted.org/packages/3d/bd/0fcf3101932775b9a85d508045b90bf26b0b77fd8375e9e0b101e8058fd6/tifffile-2022.8.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3d/bd/0fcf3101932775b9a85d508045b90bf26b0b77fd8375e9e0b101e8058fd6/tifffile-2022.8.8.tar.gz
 Summary  : Read and write TIFF files
