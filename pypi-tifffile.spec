@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-tifffile
-Version  : 2023.7.10
-Release  : 53
-URL      : https://files.pythonhosted.org/packages/43/22/4d19feaba862f06f6392499d5617f96b0d8eb9a876e33e9b6aab292b88f2/tifffile-2023.7.10.tar.gz
-Source0  : https://files.pythonhosted.org/packages/43/22/4d19feaba862f06f6392499d5617f96b0d8eb9a876e33e9b6aab292b88f2/tifffile-2023.7.10.tar.gz
+Version  : 2023.7.18
+Release  : 54
+URL      : https://files.pythonhosted.org/packages/c0/66/fe3226e958c3104a38d34b2bde0f6672c578288f514ccb9d7168e7ad3a1c/tifffile-2023.7.18.tar.gz
+Source0  : https://files.pythonhosted.org/packages/c0/66/fe3226e958c3104a38d34b2bde0f6672c578288f514ccb9d7168e7ad3a1c/tifffile-2023.7.18.tar.gz
 Summary  : Read and write TIFF files
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -64,10 +64,10 @@ python3 components for the pypi-tifffile package.
 
 
 %prep
-%setup -q -n tifffile-2023.7.10
-cd %{_builddir}/tifffile-2023.7.10
+%setup -q -n tifffile-2023.7.18
+cd %{_builddir}/tifffile-2023.7.18
 pushd ..
-cp -a tifffile-2023.7.10 buildavx2
+cp -a tifffile-2023.7.18 buildavx2
 popd
 
 %build
@@ -75,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1689090843
+export SOURCE_DATE_EPOCH=1689869033
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
