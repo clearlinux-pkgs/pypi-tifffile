@@ -5,7 +5,7 @@
 #
 Name     : pypi-tifffile
 Version  : 2023.9.26
-Release  : 59
+Release  : 60
 URL      : https://files.pythonhosted.org/packages/15/b2/ce2911ff31123c957d26f8c0c1bc9b496cfe35038e133ecda28a859e7310/tifffile-2023.9.26.tar.gz
 Source0  : https://files.pythonhosted.org/packages/15/b2/ce2911ff31123c957d26f8c0c1bc9b496cfe35038e133ecda28a859e7310/tifffile-2023.9.26.tar.gz
 Summary  : Read and write TIFF files
