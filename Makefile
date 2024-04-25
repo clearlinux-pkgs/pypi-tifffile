@@ -1,5 +1,5 @@
 PKG_NAME := pypi-tifffile
-URL = https://files.pythonhosted.org/packages/7b/79/f55cf9d4c2a2bbb19a37d8a0c14142e9c329a6cf3843e8d68237cb0615a8/tifffile-2024.4.18.tar.gz
+URL = https://files.pythonhosted.org/packages/c7/98/baea0b0668945d5f3726cf19c5df7ecafdcff6eb874cbfb69fcbece5fcb8/tifffile-2024.4.24.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
