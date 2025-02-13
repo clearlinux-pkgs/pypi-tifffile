@@ -7,7 +7,7 @@
 #
 Name     : pypi-tifffile
 Version  : 2025.1.10
-Release  : 81
+Release  : 82
 URL      : https://files.pythonhosted.org/packages/d5/fc/697d8dac6936a81eda88e7d4653d567fcb0d504efad3fd28f5272f96fcf9/tifffile-2025.1.10.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d5/fc/697d8dac6936a81eda88e7d4653d567fcb0d504efad3fd28f5272f96fcf9/tifffile-2025.1.10.tar.gz
 Summary  : Read and write TIFF files
