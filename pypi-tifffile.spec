@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : pypi-tifffile
-Version  : 2025.6.1
-Release  : 89
-URL      : https://files.pythonhosted.org/packages/33/cc/deed7dd69d4029adba8e95214f8bf65fca8bc6b8426e27d056e1de624206/tifffile-2025.6.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/33/cc/deed7dd69d4029adba8e95214f8bf65fca8bc6b8426e27d056e1de624206/tifffile-2025.6.1.tar.gz
+Version  : 2025.6.11
+Release  : 90
+URL      : https://files.pythonhosted.org/packages/11/9e/636e3e433c24da41dd639e0520db60750dbf5e938d023b83af8097382ea3/tifffile-2025.6.11.tar.gz
+Source0  : https://files.pythonhosted.org/packages/11/9e/636e3e433c24da41dd639e0520db60750dbf5e938d023b83af8097382ea3/tifffile-2025.6.11.tar.gz
 Summary  : Read and write TIFF files
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -67,10 +67,10 @@ python3 components for the pypi-tifffile package.
 
 
 %prep
-%setup -q -n tifffile-2025.6.1
-cd %{_builddir}/tifffile-2025.6.1
+%setup -q -n tifffile-2025.6.11
+cd %{_builddir}/tifffile-2025.6.11
 pushd ..
-cp -a tifffile-2025.6.1 buildavx2
+cp -a tifffile-2025.6.11 buildavx2
 popd
 
 %build
@@ -78,7 +78,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1748877210
+export SOURCE_DATE_EPOCH=1749736469
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
